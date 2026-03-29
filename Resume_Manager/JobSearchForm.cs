@@ -96,6 +96,16 @@ namespace Resume_Manager
             this.Controls.Add(displayResumeButton);
             this.Controls.Add(addJobListingButton);
             this.Controls.Add(searchJobListingsButton);
+            
+            var versionLabel = new Label
+            {
+                Text = "Версия: 1.0.0",
+                Location = new Point(10, 110),
+                AutoSize = true,
+                ForeColor = Color.Gray,
+                Font = new Font("Segoe UI", 8)
+            };
+            Controls.Add(versionLabel);
         }
     }
 }
